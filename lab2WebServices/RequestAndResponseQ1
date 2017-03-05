@@ -1,0 +1,24 @@
+SOAP Request
+
+<?xml version="1.0" encoding="UTF-8"?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <S:Body>
+        <ns2:number xmlns:ns2="http://lab2WebServices/">
+            <arg0>7899</arg0>
+            <arg1>986</arg1>
+            <arg2>12000</arg2>
+        </ns2:number>
+    </S:Body>
+</S:Envelope>
+
+
+SOAP Response
+
+<?xml version="1.0" encoding="UTF-8"?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <S:Body>
+        <ns2:numberResponse xmlns:ns2="http://lab2WebServices/">
+            <return>986</return>
+        </ns2:numberResponse>
+    </S:Body>
+</S:Envelope>
